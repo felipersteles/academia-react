@@ -1,0 +1,27 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 15rem;
+    height: 7rem;
+}
+
+.header-menu{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+
+    color: var(--branco);
+}
+
+/*> é um operador para selecionar todos os items de lista*/
+.header-menu>li{
+    cursor: pointer;
+}
+
+.header-menu>li:hover{
+    color: var(--roxo);
+}
