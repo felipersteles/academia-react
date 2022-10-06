@@ -56,5 +56,5 @@
 }
 
 .category:hover{
-    background-color: var(--planCard);
+    background: var(--cardPlanos);
 }
